@@ -1,5 +1,10 @@
 A = int (input ("Enter Number A: "))
 B = int (input ("Enter Number B: "))
 C = int (input ("Enter Number C: "))
-list1= max(A,B,C) 
-print(list1)
+if (A>=B) and (A>=B):
+    Lge=A
+elif (B>=A) and (B>=A):
+   Lge=B
+else :
+    Lge=C
+print (Lge)
